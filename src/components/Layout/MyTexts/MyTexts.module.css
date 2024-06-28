@@ -1,0 +1,56 @@
+.myTexts {
+    margin-top: 1em;
+    text-align: left;
+}
+
+.textCont {
+    padding: 0.5em;
+}
+
+.deleteBtn {
+    display: none;
+    border-radius: 2em;
+    border: none;
+    color: #ffffff;
+    background: linear-gradient(to top right, #ffe53b, #f04579);
+    /*padding: 0.2em 0.5em;*/
+}
+.textCont:hover .deleteBtn, .textCont:hover .selectBtn {
+    display: unset;
+}
+.deleteBtn:hover, .backBtn:hover {
+    background: linear-gradient(to top right, #f04579, #ffe53b);
+}
+
+.backBtn {
+    margin-top: 1em;
+    background: linear-gradient(to top right, #ffe53b, #f04579);
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+}
+
+.selectBtn {
+    display: none;
+    margin-left: 1em;
+    border-radius: 2em;
+    border: none;
+    color: #ffffff;
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+}
+.selectBtn:hover {
+    background: linear-gradient(to top right, #00ffed, #9d00c6);
+}
+
+.deleteMessage {
+    display: none;
+    color: red;
+    margin-left: 1em;
+}
+.deleteBtnCont:hover .deleteMessage {
+    display: unset;
+}
+.deleteBtnCont {
+    margin-left: 1em;
+}

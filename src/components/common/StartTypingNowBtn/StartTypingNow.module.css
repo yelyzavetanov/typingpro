@@ -1,0 +1,40 @@
+.startBtnCont {
+    background: linear-gradient(to bottom left, #00ffed, #9d00c6);
+    content: "Start typing now";
+    padding: 0.1em;
+    border-radius: 2em;
+    display: inline-block;
+}
+
+.startBtnDark, .startBtnLight {
+    padding: 0.6em 1.6em;
+    border-radius: 2em;
+    display: inline-block;
+}
+
+.startBtnDark {
+    background: #282c34;
+    color: #ffffff;
+}
+.startBtnLight {
+    background: #ffffff;
+    color: #000000;
+}
+
+.startBtnMain {
+    background: linear-gradient(to bottom left, #00ffed, #9d00c6);
+
+    font-size: 1.2em;
+    padding: 1em 2.5em;
+    border-radius: 2em;
+    max-width: 15em;
+    box-shadow: 0 0 5em +1em black, inset 0 0 1em -0.7em black;
+}
+
+.startBtnMain:hover, .startBtnCont:hover {
+    background: linear-gradient(to top right, #00ffed, #9d00c6);
+}
+
+.noClass {
+    background: transparent;
+}

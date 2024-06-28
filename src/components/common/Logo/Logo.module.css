@@ -1,0 +1,37 @@
+.logo {
+    left: 2em;
+    top: 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7em;
+    margin-left: 1em;
+}
+
+.logoImgCont {
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+    padding: 0.1em;
+    margin: 0.5em 0;
+    border-radius: 0.5em;
+}
+
+.logoImg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0.5em;
+    height: 1.5em;
+    width: 1.5em;
+    background: #16181d;
+    font-weight: 600;
+}
+
+.logoElement {
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 1em;
+    background: -webkit-linear-gradient(#00ffed, #9d00c6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

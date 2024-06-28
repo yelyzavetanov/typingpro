@@ -1,0 +1,145 @@
+header {
+    height: 2em;
+    padding: 0.3em 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    /*background: red;*/
+}
+
+.shownHeaderBtn, .hiddenHeaderBtn {
+    display: none;
+}
+.shownHeaderBtn {
+    color: #61dafb;
+}
+.hiddenHeaderBtn {
+    color: #ffffff;
+}
+
+.headerInf, .headerShownInf {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    right: 0;
+    color: #ffffff;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 45em) {
+    .headerInf {
+        display: none;
+    }
+    .shownHeaderBtn, .hiddenHeaderBtn {
+        display: block;
+    }
+    .shownHeaderBtn {
+        /*background: #16181d;*/
+    }
+    .headerShownInf {
+        background: #16181d;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute;
+        top: 2em;
+        right: 0;
+        padding: 1em;
+        margin: 0;
+        z-index: 1;
+    }
+}
+
+.showButtons {
+    display: flex;
+}
+
+.showButtons * {
+    padding: 0 0.5em;
+}
+
+.headerDiv {
+    display: flex;
+    margin-right: 1em;
+    vertical-align: bottom;
+    font-weight: 300;
+    align-items: center;
+}
+
+.headerLink {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerLink * {
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    color: #61dafb;
+    line-height: 0.9;
+    display: inline-block;
+}
+
+.active .linkLed {
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+    hight: 0.25em;
+    border-radius: 2em;
+    width: 100%;
+}
+
+.activeHeaderLink {
+    color: #61dafb;
+}
+
+.logo * {
+    vertical-align: top;
+}
+
+.logo img {
+    height: 2em;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo img {
+        animation: App-logo-spin infinite 10s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.headerSelectCont {
+    border-radius: 2em;
+    margin: 0 0.25em;
+    padding: 0.1em;
+}
+
+.headerSelect {
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+    color: #ffffff;
+    padding: 0.3em;
+    border-radius: 2em;
+    border: none;
+}
+
+.headerSelect option {
+    background: #16181d;
+}

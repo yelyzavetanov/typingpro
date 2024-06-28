@@ -1,0 +1,33 @@
+.sidebarCont {
+    height: 100%;
+    /*display: none;*/
+}
+
+.sidebarContHidden {
+    display: none;
+}
+
+.sidebarLight, .sidebarDark {
+    height: 100%;
+    width: 25vw;
+    color: #ffffff;
+}
+
+.sidebarLight {
+    background: #f7f7f7;
+    color: #000000;
+}
+.sidebarDark {
+    background: #20232a;
+    color: #ffffff;
+}
+
+.layoutName, .typingTest {
+    padding: 1em 2.5em;
+}
+
+@media screen and (max-width: 60em) {
+    .sidebarLight, .sidebarDark {
+        width: unset;
+    }
+}

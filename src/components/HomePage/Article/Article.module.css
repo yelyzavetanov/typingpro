@@ -1,0 +1,25 @@
+.article, .fancyArticle {
+    padding: 2em;
+    width: unset;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.fancyArticle {
+
+}
+
+.header {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 60em) {
+    .article, .fancyArticle {
+        display: block;
+        width: unset;
+        padding: 1em;
+    }
+}

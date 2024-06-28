@@ -1,0 +1,23 @@
+.keyboardImages {
+    padding: 0 0.5em 1em 0.5em;
+}
+
+.imgCont img {
+    max-height: 7em;
+    background: #ffffff;
+    padding: 0.5em;
+    border-radius: 0.2em;
+    /*margin-right: 1em;*/
+    /*width: 100%;*/
+}
+
+.imgCont img {
+    max-width: 100%;
+}
+
+.imgCont {
+    padding-top: 1em;
+    max-width: 100%;
+}
+
+.header {}

@@ -1,0 +1,25 @@
+.key {
+    display: flex;
+    flex-direction: column;
+    margin: 0.1em;
+    border-radius: 0.3em;
+    align-items: center;
+    justify-content: center;
+
+    color: #000000;
+    border: 0.01em #999 solid;
+    flex-grow: 0.8;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.long {flex-grow: 1;}
+.space {flex-grow: 8.5;}
+
+.pinkyFinger {background: #ffadad;}
+.ringFinger {background: #ffd6a5;}
+.middleFinger {background: #fdffb6;}
+.leftIndexFinger {background: #cfffbf;}
+.rightIndexFinger {background: #9bf6ff;}
+.thumb {background: #a0c4ff;}
+.whiteKey {background: #ffffff;}

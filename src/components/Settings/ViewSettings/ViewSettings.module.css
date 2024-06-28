@@ -1,0 +1,54 @@
+.header {
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+.selectTheme {
+    display: flex;
+    justify-content: left;
+    font-weight: 300;
+}
+
+.switchLight, .switchDark {
+    margin-left: 0.5em;
+    width: 3em;
+    height: 1.5em;
+    border-radius: 2em;
+    background: #bfbfbf;
+    z-index: 0;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 300ms;
+    border: none;
+}
+
+.switchLight::after, .switchDark::after {
+    content: "";
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 2em;
+    top: 0.15em;
+    transition-duration: 300ms;
+    position: absolute;
+    z-index: 1;
+}
+
+.switchLight::after {
+    left: 0.15em;
+    background: #ffffff;
+}
+
+.switchDark::after {
+    right: 0.15em;
+    background: #282c34;
+}
+
+.switchLight {
+    background: #bfbfbf;
+}
+
+.switchDark {
+    background: #16181d;
+}

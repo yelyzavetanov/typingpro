@@ -1,0 +1,25 @@
+.headerDiv {
+    display: flex;
+    margin-right: 1em;
+    vertical-align: bottom;
+    font-weight: 300;
+    align-items: center;
+}
+
+.headerSelect {
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+    color: #ffffff;
+    padding: 0.3em;
+    border-radius: 2em;
+    border: none;
+}
+
+.headerSelect option {
+    background: #16181d;
+}
+
+.headerSelectCont {
+    /*border-radius: 2em;*/
+    margin: 0 0.25em;
+    padding: 0.1em;
+}

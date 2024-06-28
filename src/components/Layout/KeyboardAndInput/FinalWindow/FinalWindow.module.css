@@ -1,0 +1,56 @@
+.finalWindow {
+    text-align: left;
+    padding: 2em 0.5em;
+    line-height: 2;
+}
+
+.finalBtnCont {
+    background: linear-gradient(to bottom left, #00ffed, #9d00c6);
+    padding: 0.1em;
+    border-radius: 2em;
+    display: inline-block;
+    margin: 1em 1em 1em 0;
+}
+
+.finalBtnDark, .finalBtnLight {
+    padding: 0.2em 1em;
+    text-align: center;
+    border-radius: 2em;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.finalBtnDark {
+    background: #282c34;
+    color: #ffffff;
+}
+.finalBtnLight {
+    background: #ffffff;
+    color: #000000;
+}
+
+.finalBtnCont:hover {
+    background: linear-gradient(to top right, #00ffed, #9d00c6);
+    /*font-weight: 600;*/
+}
+
+.arrow {
+    height: 1.5em;
+    padding-left: 0.5em;
+}
+
+.valueInfo {
+    font-weight: 300;
+}
+
+.header {
+    font-weight: 600;
+    /*font-size: 1.1em;*/
+    padding-bottom: 1em;
+}
+
+.blankSpan {
+    display: inline-block;
+    width: 1em;
+}

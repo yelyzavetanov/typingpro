@@ -1,0 +1,52 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "layout layout layout sidebar";
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 60em) {
+    .layout {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /*min-width: unset;*/
+        /*width: 10em;*/
+    }
+    .sidebarContShown {
+        position: absolute;
+        right: 0;
+        top: 2.6em;
+    }
+    .sidebarContHidden {
+        display: none;
+    }
+    .keyboardCont {
+        /*min-width: unset;*/
+        /*background: green;*/
+
+    }
+}
+
+.keyboardCont {
+    text-align: center;
+    grid-area: layout;
+    justify-self: center;
+    padding: 0 0.5em;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.keyboardContChild {
+    width: 100%;
+    /*max-width: 47em;*/
+}
+
+.sidebarContShown, .sidebarContHidden {
+    grid-area: sidebar;
+}

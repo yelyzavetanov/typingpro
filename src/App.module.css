@@ -1,0 +1,18 @@
+.appDark, .appLight {
+  /*width: 100%;*/
+}
+
+.appDark {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.appLight {
+  background: #ffffff;
+  /*background: #dcebff;*/
+  color: #000000;
+}
+
+.main {
+  min-height: 100vh;
+}

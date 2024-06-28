@@ -1,0 +1,33 @@
+.cont{
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blankCont {
+    width: 1.5em;
+}
+.typingTest {
+    width: 65%;
+}
+.customText, .myTexts {
+    width: 15%;
+}
+
+.customText:hover, .myTexts:hover, .typingTest:hover {
+    background: linear-gradient(to top right, #00ffed, #9d00c6);
+}
+
+.typingTest, .customText, .myTexts {
+    padding: 0.5em 1em;
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+    color: #ffffff;
+    border: none;
+    border-radius: 2em;
+}
+
+.typingTest option {
+    background: #16181d;
+    color: #ffffff;
+}

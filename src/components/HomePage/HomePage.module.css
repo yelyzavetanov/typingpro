@@ -1,0 +1,9 @@
+.articles {
+    display: flex;
+}
+
+@media screen and (max-width: 80em) {
+    .articles {
+        display: unset;
+    }
+}

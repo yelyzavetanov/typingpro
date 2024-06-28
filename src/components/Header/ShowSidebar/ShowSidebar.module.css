@@ -1,0 +1,16 @@
+.shownSidebarBtn, .hiddenSidebarBtn {
+    display: none;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 60em) {
+    .shownSidebarBtn {
+        color: #61dafb;
+    }
+    .hiddenSidebarBtn {
+        color: #ffffff;
+    }
+    .shownSidebarBtn, .hiddenSidebarBtn {
+        display: block;
+    }
+}

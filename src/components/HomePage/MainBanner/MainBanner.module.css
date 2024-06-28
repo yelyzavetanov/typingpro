@@ -1,0 +1,89 @@
+.mainBanner {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.99)),
+        url("../../../img/backgrounds/keyboard_light.jpg");
+    background-repeat: round;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerSections {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerSection {
+    max-width: 20em;
+}
+
+@media screen and (max-width: 45em) {
+    .bannerSections {
+        width: unset;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 1em;
+    }
+}
+
+.bannerSection div {
+    margin-bottom: 1em;
+}
+
+.bannerSection:first-child {
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: black 0 0 15em;
+    font-size: 1.1em;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.mainHeader {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.mainInformation {
+    font-weight: 300;
+}
+
+.learnMoreCont {
+    display: inline-block;
+}
+
+.learnMore {
+    padding: 0.5em 1.5em;
+    border: 0.01em #ffffff solid;
+    border-radius: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .learnMore:hover {
+        background: rgba(100%, 100%, 100%, 0.15);
+        animation: learnMoreBtnHover 1 0.25s linear;
+    }
+}
+
+@keyframes learnMoreBtnHover {
+    from {
+        background: transparent;
+    }
+    to {
+        background: rgba(100%, 100%, 100%, 0.15);
+    }
+}
+
+.icon {
+    height: 1.5em;
+    margin-left: 0.5em;
+}

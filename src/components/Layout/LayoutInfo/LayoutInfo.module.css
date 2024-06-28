@@ -1,0 +1,39 @@
+.layoutInfo {
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.infoCont {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.value {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.valueInfo {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.fingersColors {
+    margin-top: 1em;
+    text-align: left;
+}
+
+.fingersColors div {
+    display: inline-block;
+    padding: 0.2em;
+    margin: 0.2em;
+    border-radius: 0.2em;
+}
+
+.pinkyFinger {background: #ffadad; color: #000000;}
+.ringFinger {background: #ffd6a5; color: #000000;}
+.middleFinger {background: #fdffb6; color: #000000;}
+.leftIndexFinger {background: #cfffbf; color: #000000;}
+.rightIndexFinger {background: #9bf6ff; color: #000000;}
+.thumb {background: #a0c4ff; color: #000000;}

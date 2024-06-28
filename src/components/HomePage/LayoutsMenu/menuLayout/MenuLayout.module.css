@@ -1,0 +1,38 @@
+.layoutLink * {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.layoutLinkCont {
+    background: linear-gradient(to bottom left, #00ffed, #9d00c6);
+    content: "Start typing now";
+    padding: 0.1em;
+    border-radius: 2em;
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 0.2em;
+}
+
+.layoutLinkDark, .layoutLinkLight {
+    padding: 0.5em 1.5em;
+    text-align: center;
+    border-radius: 2em;
+    display: inline-block;
+}
+
+.layoutLinkLight {
+    background: #ffffff;
+    color: #000000;
+}
+.layoutLinkDark {
+    background: #282c34;
+    color: #ffffff;
+}
+
+.layoutLinkCont:hover {
+    background: linear-gradient(to top right, #00ffed, #9d00c6);
+}
+
+@media screen and (max-width: 60em) {
+
+}

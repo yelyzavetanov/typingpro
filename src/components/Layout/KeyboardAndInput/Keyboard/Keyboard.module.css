@@ -1,0 +1,22 @@
+.keyboard {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.altText {
+    margin: 1em;
+    display: none;
+    color: red;
+    font-weight: 500;
+    /*background: #ffe5644d;*/
+}
+
+@media screen and (max-width: 30em) {
+    .keyboard {
+        display: none;
+    }
+    .altText {
+        display: unset;
+    }
+}

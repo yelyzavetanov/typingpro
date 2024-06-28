@@ -1,0 +1,58 @@
+.selectTheme {
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.switchContLight, .switchContDark {
+    margin: 0 0.25em;
+    padding: 0.1em;
+    border-radius: 2em;
+
+    /*background: linear-gradient(to top right, #9d00c6, #00ffed);*/
+}
+
+.switchContLight {background: linear-gradient(to top right, #ffe53b, #f04579);}
+.switchContDark {background: linear-gradient(to top right, #9d00c6, #00ffed);}
+
+.switchLight, .switchDark {
+    width: 3em;
+    height: 1.5em;
+    border-radius: 2em;
+    background: #bfbfbf;
+    cursor: pointer;
+    transition-duration: 500ms;
+    position: relative;
+}
+.switchLightChild, .switchDarkChild {
+    top: 0.15em;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 2em;
+    transition-duration: 300ms;
+    position: absolute;
+
+    /*background: linear-gradient(to top right, #9d00c6, #00ffed);*/
+}
+
+.switchLightChild {
+    left: 0.15em;
+    background: linear-gradient(to top right, #ffe53b, #f04579);
+
+    /*box-shadow: 0 0 1em #ffe53b;*/
+}
+.switchDarkChild {
+    right: 0.15em;
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+
+    /*background: linear-gradient(to top right, #0100ec, #fb36f4);*/
+    /*box-shadow: 0 0 7em #00ffed;*/
+}
+
+.switchLight {
+    background: #16181d;
+}
+.switchDark {
+    background: #16181d;
+}

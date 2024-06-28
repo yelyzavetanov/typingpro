@@ -1,0 +1,63 @@
+.customText {
+    margin: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titleInputCont {
+    margin: 0.5em 0;
+}
+
+.titleCont {
+    /*margin-left: 0.5em;*/
+}
+
+.titleInputCont {
+    display: flex;
+    width: 100%;
+}
+.titleInput {
+    padding: 1em;
+    width: 100%;
+}
+
+.textCont {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    width: 100%;
+}
+
+.textCont textarea {
+    width: 100%;
+    padding: 1em;
+    height: 15em;
+    font-size: 1.1em;
+}
+
+.backBtn, .submitBtn {
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+}
+.backBtn {
+    background: linear-gradient(to top right, #ffe53b, #f04579);
+}
+.submitBtn {
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+    margin-left: 1em;
+}
+.backBtn:hover {
+    background: linear-gradient(to top right, #f04579, #ffe53b);
+}
+.submitBtn:hover {
+    background: linear-gradient(to top right, #00ffed, #9d00c6);
+}
+
+.errorMessage {
+    color: red;
+    font-weight: 600;
+    margin-bottom: 1em;
+}

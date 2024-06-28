@@ -1,0 +1,62 @@
+.level {
+    padding: 0.5em 2em;
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.level:hover .levelName {
+    font-weight: 600;
+}
+
+.levelLed, .hiddenLevelLed {
+    background: linear-gradient(to top right, #9d00c6, #00ffed);
+    /*box-shadow: 0 0 1em #00ffed;*/
+    width: 100%;
+    height: 0.25em;
+    border-radius: 2em;
+}
+
+.levelNameChild {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.9;
+    margin: 0 1em;
+}
+
+.levelNameChild * {
+    display: block;
+}
+
+.levelLed {display: unset;}
+.hiddenLevelLed {display: none;}
+.level:hover .hiddenLevelLed {display: unset;}
+
+.exercisesCont {
+    display: none;
+}
+
+.levelName {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.hiddenArrow, .arrow {
+    height: 1em;
+    /*background: linear-gradient(#9d00c6, #00ffed);*/
+    border-radius: 2em;
+    /*margin-left: 0.5em;*/
+}
+
+.hiddenArrow {
+    display: none;
+    transform: rotate(90deg);
+}
+.arrow {
+    display: unset;
+    transform: rotate(180deg);
+}
+
+.level:hover .hiddenArrow {
+    display: unset;
+}

@@ -1,0 +1,22 @@
+.input {
+    text-align: left;
+    padding: 1em;
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    white-space: pre-wrap;
+    background: #ffffff;
+    color: #000000;
+    min-width: unset;
+}
+
+.typedText {
+    background: #bbeffd4d;
+    color: #017fcc;
+}
+.wrongText {
+    color: red;
+    background: #ffe5644d;
+}
+.remainingText {
+
+}

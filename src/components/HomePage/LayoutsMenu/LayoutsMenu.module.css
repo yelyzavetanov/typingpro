@@ -1,0 +1,14 @@
+.selectLayout {
+    padding: 1.8em 2em;
+}
+
+@media screen and (max-width: 60em) {
+    .selectLayout {
+        padding: 1em;
+    }
+}
+
+.header {
+    font-weight: 500;
+    padding-bottom: 0.5em;
+}
